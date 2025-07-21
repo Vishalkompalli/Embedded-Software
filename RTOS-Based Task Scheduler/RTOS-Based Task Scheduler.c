@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include<stdlib.h>
+#include <stdlib.h>
 
+#define MAX_TASKS 5
 
-
-// #define MAX_TASKS 5
-
-typedef struct {
+typedef struct 
+{
     int task_id;
     int priority;
     int execution_time;
